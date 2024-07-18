@@ -40,5 +40,5 @@ input {
 }
 
 #progress-bar {
-  transition: width 0.2s linear; 
+  transition: all 0.2s linear; 
 }
