@@ -14,7 +14,7 @@ const progressBar = () => {
             <div id="progress-bar" style={{
                 height: "100%",
                 width: `${progress}%`,
-                backgroundColor: `#AA${Math.floor(((100 - progress) * 2.55)).toString(16)}FF`
+                backgroundColor: `#AA${Math.floor((100 - progress) * 2.55).toString(16)}FF`
             }}></div>
         </div> 
         <span style={{
