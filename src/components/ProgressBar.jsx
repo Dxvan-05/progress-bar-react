@@ -19,7 +19,7 @@ const progressBar = () => {
         </div> 
         <span style={{
             fontWeight: "800"
-        }}>{ progress }%</span>
+        }}>{ progress === 100 ? "Done" : progress + '%' }</span>
     </div>
     )
 }

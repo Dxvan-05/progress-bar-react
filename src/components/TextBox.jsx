@@ -6,7 +6,7 @@ const TextBox = () => {
     const { steps, setSteps } = useContext(ProgressContext); 
 
     return (
-        <input type="number" value={steps} onChange={(e) => {setSteps(parseInt(e.target.value))}}/>
+        <input type="number" min={0} max={100} value={steps} onChange={(e) => {setSteps(parseFloat(e.target.value))}}/>
     )
 }
 
