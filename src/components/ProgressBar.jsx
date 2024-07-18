@@ -3,7 +3,7 @@ import { ProgressContext } from "../App";
 
 
 
-const progressBar = () => {
+const ProgressBar = () => {
     const { progress } = useContext(ProgressContext);
     return (
     <div style={{
@@ -24,4 +24,4 @@ const progressBar = () => {
     )
 }
 
-export default progressBar;
+export default ProgressBar;
